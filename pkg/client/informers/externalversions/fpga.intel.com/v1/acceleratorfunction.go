@@ -19,10 +19,10 @@ package v1
 import (
 	time "time"
 
-	fpgaintelcomv1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
-	versioned "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/listers/fpga.intel.com/v1"
+	fpgaintelcomv1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
+	versioned "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/intel/MLU100-Device-Plugin/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/intel/MLU100-Device-Plugin/pkg/client/listers/fpga.intel.com/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

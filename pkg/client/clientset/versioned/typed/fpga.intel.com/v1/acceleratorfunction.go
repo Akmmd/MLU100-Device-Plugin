@@ -17,8 +17,8 @@
 package v1
 
 import (
-	v1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
-	scheme "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
+	scheme "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned/scheme"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

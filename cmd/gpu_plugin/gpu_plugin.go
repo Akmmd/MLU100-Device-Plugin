@@ -24,7 +24,7 @@ import (
 	//"regexp"
 	//"time"
 	pluginapi "k8s.io/kubernetes/pkg/kubelet/apis/deviceplugin/v1beta1"
-	dpapi "github.com/intel/intel-device-plugins-for-kubernetes/pkg/deviceplugin"
+	dpapi "github.com/intel/MLU100-Device-Plugin/pkg/deviceplugin"
 )
 
 const (

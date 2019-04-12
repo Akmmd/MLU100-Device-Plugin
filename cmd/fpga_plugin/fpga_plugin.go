@@ -33,8 +33,8 @@ import (
 	pluginapi "k8s.io/kubernetes/pkg/kubelet/apis/deviceplugin/v1beta1"
 	utilnode "k8s.io/kubernetes/pkg/util/node"
 
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
-	dpapi "github.com/intel/intel-device-plugins-for-kubernetes/pkg/deviceplugin"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
+	dpapi "github.com/intel/MLU100-Device-Plugin/pkg/deviceplugin"
 )
 
 const (

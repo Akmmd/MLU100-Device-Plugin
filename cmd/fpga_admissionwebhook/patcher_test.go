@@ -21,8 +21,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	fpgav1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	fpgav1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 )
 
 func init() {

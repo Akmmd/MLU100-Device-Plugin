@@ -26,7 +26,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	fpgav1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
+	fpgav1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
 )
 
 const (

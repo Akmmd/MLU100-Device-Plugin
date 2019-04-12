@@ -17,7 +17,7 @@
 package fake
 
 import (
-	v1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned/typed/fpga.intel.com/v1"
+	v1 "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned/typed/fpga.intel.com/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

@@ -24,7 +24,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 	pluginapi "k8s.io/kubernetes/pkg/kubelet/apis/deviceplugin/v1beta1"
 )
 

@@ -19,7 +19,7 @@ package internalinterfaces
 import (
 	time "time"
 
-	versioned "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned"
+	versioned "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	cache "k8s.io/client-go/tools/cache"

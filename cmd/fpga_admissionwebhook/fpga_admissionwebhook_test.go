@@ -29,7 +29,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 )
 
 func init() {

@@ -17,7 +17,7 @@
 package v1
 
 import (
-	internalinterfaces "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/intel/MLU100-Device-Plugin/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

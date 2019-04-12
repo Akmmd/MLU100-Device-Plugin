@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 )
 
 func init() {

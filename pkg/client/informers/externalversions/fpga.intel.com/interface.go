@@ -17,8 +17,8 @@
 package fpga
 
 import (
-	v1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/informers/externalversions/fpga.intel.com/v1"
-	internalinterfaces "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/intel/MLU100-Device-Plugin/pkg/client/informers/externalversions/fpga.intel.com/v1"
+	internalinterfaces "github.com/intel/MLU100-Device-Plugin/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

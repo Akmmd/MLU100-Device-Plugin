@@ -17,7 +17,7 @@
 package fake
 
 import (
-	fpgaintelcomv1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
+	fpgaintelcomv1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

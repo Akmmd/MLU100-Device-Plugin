@@ -25,7 +25,7 @@ import (
 	"k8s.io/utils/exec"
 	fakeexec "k8s.io/utils/exec/testing"
 
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 	"github.com/pkg/errors"
 )
 

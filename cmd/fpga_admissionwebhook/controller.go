@@ -27,10 +27,10 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	clientset "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned"
-	informers "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/informers/externalversions"
-	listers "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/listers/fpga.intel.com/v1"
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	clientset "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned"
+	informers "github.com/intel/MLU100-Device-Plugin/pkg/client/informers/externalversions"
+	listers "github.com/intel/MLU100-Device-Plugin/pkg/client/listers/fpga.intel.com/v1"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 )
 
 const (

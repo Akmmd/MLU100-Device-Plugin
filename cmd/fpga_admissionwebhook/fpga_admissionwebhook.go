@@ -36,7 +36,7 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 )
 
 const (

@@ -21,9 +21,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned"
-	fpgaintelcom "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/informers/externalversions/fpga.intel.com"
-	internalinterfaces "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned"
+	fpgaintelcom "github.com/intel/MLU100-Device-Plugin/pkg/client/informers/externalversions/fpga.intel.com"
+	internalinterfaces "github.com/intel/MLU100-Device-Plugin/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

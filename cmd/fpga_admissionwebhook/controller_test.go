@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/rest"
 
-	v1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
-	listers "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/listers/fpga.intel.com/v1"
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/debug"
+	v1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
+	listers "github.com/intel/MLU100-Device-Plugin/pkg/client/listers/fpga.intel.com/v1"
+	"github.com/intel/MLU100-Device-Plugin/pkg/debug"
 )
 
 type fakeAfNamespaceLister struct {

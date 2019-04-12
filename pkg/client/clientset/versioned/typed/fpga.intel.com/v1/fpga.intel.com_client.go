@@ -17,8 +17,8 @@
 package v1
 
 import (
-	v1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
+	"github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )

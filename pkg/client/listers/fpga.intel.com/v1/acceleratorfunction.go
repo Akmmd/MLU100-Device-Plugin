@@ -17,7 +17,7 @@
 package v1
 
 import (
-	v1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v1"
+	v1 "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"

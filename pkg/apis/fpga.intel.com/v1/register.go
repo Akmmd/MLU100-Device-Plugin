@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	fpgaintel "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com"
+	fpgaintel "github.com/intel/MLU100-Device-Plugin/pkg/apis/fpga.intel.com"
 )
 
 // SchemeGroupVersion is group version used to register these objects

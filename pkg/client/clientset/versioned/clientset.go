@@ -18,7 +18,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	fpgav1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned/typed/fpga.intel.com/v1"
+	fpgav1 "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned/typed/fpga.intel.com/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

@@ -17,9 +17,9 @@
 package fake
 
 import (
-	clientset "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned"
-	fpgav1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned/typed/fpga.intel.com/v1"
-	fakefpgav1 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/client/clientset/versioned/typed/fpga.intel.com/v1/fake"
+	clientset "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned"
+	fpgav1 "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned/typed/fpga.intel.com/v1"
+	fakefpgav1 "github.com/intel/MLU100-Device-Plugin/pkg/client/clientset/versioned/typed/fpga.intel.com/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"
